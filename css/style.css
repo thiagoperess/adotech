@@ -1,8 +1,6 @@
 /* Style CSS */
-
-
-/* style */
-
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&family=Red+Hat+Display:wght@900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -15,8 +13,9 @@ body {
 
 h1 {
     margin-left: 15px;
-    margin-top: 10px;
-    font-size: 20px;
+    margin-top: 5px;
+    font-size: 25px;
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 .adotech {
@@ -51,7 +50,9 @@ h2 {
 }
 
 p {
-    line-height: 1.5;  
+    line-height: 1.5;
+    font-family: 'Rajdhani', sans-serif;  
+    font-size: 18px;
 }
 
 input, select {
@@ -90,6 +91,7 @@ select {
     background-color: cornflowerblue;
     border-radius: 10px;
     margin-bottom: 10px;
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 .picture {
@@ -110,12 +112,20 @@ select {
     font-size: 15px;
 }
 
+.description p {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 17px;
+    color: white;
+}
+
 .description p, .description h3 {
     margin-bottom: 20px;
 }
 
 .description h3 {
     font-size: 24px;
+    margin-top: 15px;
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 .formContainer {
@@ -195,7 +205,7 @@ select {
 
 h3 {
     font-size: 15px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Red Hat Display', sans-serif;
     color: white;
     margin-top: -8px;
     margin-bottom: 10px;
